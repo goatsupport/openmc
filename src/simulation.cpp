@@ -50,6 +50,7 @@
 
 int openmc_run()
 {
+  std::cout << "Hiiii" << std::endl;
   openmc::simulation::time_total.start();
   openmc_simulation_init();
 
